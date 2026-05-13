@@ -1,0 +1,289 @@
+ history
+    1  git
+    2  ls
+    3  ;s
+    4  cd Desktop/
+    5  cd git_bla/
+    6  git init
+    7  echo "Hello_world" > file.txt
+    8  ls
+    9  git add .
+  "
+   15  git status
+   16  ls
+   17  git add file.txt
+   18  git commit -m"my first commit"
+   19  git status
+   20  ls'
+   21  ls
+   22  git branch checkout b2
+   23  git --help
+   24  git branch b2
+   25  git branch
+   26  git checkout b2
+   27  git checkout master
+   28  ehco "Hello from git" > file.txt
+   29  cat
+   30  ls
+   31  cat file.txt
+   32  ehco file.txt
+   33  touch file.txt
+   34  ls
+   35  echo "cati this is my new text" >> file.txt
+   36  cat file.txt
+   37  git status
+   38  diff
+   39  diff file.txt
+   40  diff master
+   41  diff -help
+   42  dif --help
+   43  man diff
+   44  hello from the dark side
+   45  cls
+   46  clear
+   47  tstuf 2
+   48  tstuf
+   49  tutf
+   50  ttuf
+   51  attach
+   52  clear
+   53  touch file2.txt
+   54  git status
+   55  git add file2.txt
+   56  git status
+   57  git commit -m"this is the second commit"
+     59  git restore
+   60  git restore file.txt
+   61  git status
+   62  ls
+   63  clear
+   64  git status
+   65  touch file3.txt
+   66  git add file3.txt
+   67  git status
+   68  git restore file3.txt
+   69  git status
+   70  git restore --stafed file3.txt
+   71  git status
+   72  git restore --staged file3.txt
+   73  git status
+   74  git add /
+   75  git add .
+   76  git restore --staged file3.txt
+ 
+   84  cat file3.txt
+   85  clear
+   86  touch .gitignore
+   87  ls
+   88  ls -la
+   89  clear
+   90  ls -a
+   91  cd .git
+   92  ls
+   93  ls pa
+   94  ls -a
+   95  cd logs
+   96  ls
+   97  cd refs/
+   98  ls
+   99  ls -a
+  100  cd heads/
+  101  ld
+  102  ls
+  103  cd master
+  104  cat master
+  105  less master
+  106  more master
+  107  mor master
+  108  more master
+  109  ls
+  110  cd ../
+  111  cd ~
+  112  exit
+  113  cd Desktop/
+  114  cd git_bla/
+  115  clear
+  116  ls
+  117  ls -a
+  118  echo "what the hell im doing in this lesson? im really asking?" >> file3.txt
+  119  cat file3.txt
+  120  clear
+  121  ls
+  122  git status
+  123  git status --ignored
+  124  git tree
+  125  git ls-tree -r HEAD --name-only
+  126   clear
+  127  cd ~
+  128  cd Desktop/
+  129  mkdir git_practice
+  130  cd git_practice/
+  131  git init
+  132  cd .
+  133  cd ..
+  134  rmdir git_practice/
+  135  rm -r git_practice/
+  136  mkdir git_practice
+  137  cd git_practice/
+  138  pwd
+  139  mkdir secret_mission_log
+  140  cd secret_mission_log/
+  141  git init
+  142  cat mission.txt >
+  143  cat mission.txt
+  144  cat > mission.txt
+  145  git status
+  146  git add mission.txt
+  147  git status
+  148  git commit -m"Create first mission file"
+  149  git status
+  150  git log
+  151  git log --oneline
+  152  nano mission.txt
+  153  cat mission.txt
+  154  vi ./mission.txt
+  155  cd
+  156  ls
+  157  cd Desktop/
+  158  ls
+  159  cd Kodkod_git/
+  160  cd ..
+  161  cd git_practice/
+  162  ls -a
+  163  cd secret_mission_log/
+  164  cd ..
+  165  ls -a
+  166  rm -rf .git.
+  167  ls -a
+  168  cd ..
+  169  rm -r git_practice/
+  170  cd Kodkod_git/
+  171  ls
+  172  ls -a
+  173  git init
+  174  git status
+  175  git add .
+  176  git commit -m"i adding right now all the python simple exes"
+  177  git status
+  178  git -la
+  179  git ls -a
+  180  touch .gitignore
+  181  git ls -a
+  182  ls -a
+  183  cd week05/
+  184  ls -a
+  185  mkdir git_practice
+  186  ls -a
+  187  cd ..
+  188  ls -a
+  189  ls -a
+  190  cd week05/
+  191  ls
+  192  cd git_practice/
+  193  mkdir secret_mission_log
+  194  cd secret_mission_log/
+  195  git status
+  196  git add ../../../.gitignore
+  197  git commit -m"I added git ingnore
+  198  git commit -m"I added git ingnore"
+  199  cd
+  200  cd Desktop/Kodkod_git/
+  201  ls
+  202  cd week05/
+  203  ls -a
+  204  cd git_practice/
+  205  git status
+  206  git add .
+  207  git commit -m"I ADDED GITINGORE"
+  208  ls -a
+  209  cd secret_mission_log/
+  210  ls -a
+  211  touch mission.txt
+  212  cat mission >
+  213  cat mission.txt >
+  214  cla
+  215  clear
+  216  ls -a
+  217  cat mission.txt >
+  218  nano mission.txt
+  219  cat mission.txt
+  220  git add mission.txt
+  221  git commit -m"I added my first commit"
+  222  git status
+  223  git log
+  224  nano mission.txt
+  225  cat mission.txt
+  226  git status
+  227  git add mission.txt
+  228  git commit -m"Update mission status and leader
+  229  git commit -m"Update mission status and leader"
+  230  git lgog
+  231  git log
+  232  ls -a
+  233  echo "new_line" >> mission.txt
+  234  git status
+  235  git add mission.txt
+  236  git commit -m"Add mission priority"
+  237  git log
+  238  git status
+  239  git add .
+  240  git commit -m"update ingore"
+  241  git status
+  242  git add ../../../.gitignore
+  243  git commit -m"I added gitignore"
+  244  touch --help
+  245  cat team.txt >
+  246  cat "team.txt" >
+  247  cat > team.txt
+  248  git status
+  249  git add team.txt
+  250  git commit -m"Add team members file"
+  251  git log
+  252  echo team.txt >>
+  253  echo "Rivka" >> team.txt
+  254  cat team.txt
+  255  git diff
+  256  git add team.txt
+  257  git commit -m"Add Rivka to team"
+  258  echo "Secret Password : 123456" >> team.txt
+  259  cat team.txt
+  260  git status
+  261  git diff
+  262  git restore mission.txt
+  263  git status
+  264  cat mission
+  265  cat mission.txt
+  266  cat team.txt
+  267  git restore team.txt
+  268  cat team.txt
+  269  echo "secret password" >> mission.txt
+  270  cat mission.txt
+  271  git add mission.txt
+  272  git status
+  273  git restore --staged mission.txt
+  274  git status
+  275  cat mission.txt
+  276  git restore --staged mission.txt
+  277  git status
+  278  git restire mission.txt
+  279  git restore mission.txt
+  280  git status
+  281  cat > equipment.txt
+  282  history
+  283  git status
+  284  git add equipment.txt
+  285  gi status
+  286  git commit -m"Add equipment list"
+  287  git status
+  288  radio
+  289  git diff
+  290  ls -a
+  291  nano equipment
+  292  ls -a
+  293  cat equipment.txt
+  294  nano  equipment.txt
+  295  cat equipment.txt
+  296  git add equipment.txt
+  297  git commit -m"Add radio equipment"
+  298  git log
+  299  history

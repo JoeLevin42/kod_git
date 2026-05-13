@@ -67,8 +67,9 @@ def ends_with_zero(arr):
             arr.remove(0)
             arr.append(0)
         index +=1
+    
     return arr
-print(ends_with_zero([0,1,0,2,0,3,0,0,4]))
+print(ends_with_zero([0,0,1,0,2,0,3,0,0,4]))
 #Ex 9
 def ex9(arr):
     def avarage(arr):
@@ -96,7 +97,11 @@ def not_double_list(arr):
     return new_arr
 
     
-
+def a(arr):
+    for val in arr:
+        arr.remove(0)
+        arr.append(0)
+    return arr
 
 
 

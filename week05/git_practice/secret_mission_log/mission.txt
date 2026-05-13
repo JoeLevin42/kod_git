@@ -1,7 +1,0 @@
-Mission Name : Opreration Quiet Room
-Status : In Progress
-Leader : Agent David
-Location : Training base
-
-
-new_line
