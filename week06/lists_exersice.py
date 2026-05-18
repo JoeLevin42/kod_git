@@ -62,4 +62,3 @@ def rotate(arr , k):
         val = arr.pop()
         arr.insert(0,val)
     return arr
-print(rotate([1, 2, 3, 4, 5],7))
