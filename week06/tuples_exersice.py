@@ -47,8 +47,8 @@ def min_max(numbers_tuple):
     return min_max_tup
 
 #Ex 7
-def get_distance(tupx : tuple, tupy :tuple):
-    distance= (((tupx[0] - tupx[1])**2) + (tupy[0] - tupy[1])**2)**0.5
+def get_distance(point_a : tuple, point_b :tuple):
+    distance= (((point_a[0] - point_b[0])**2) + ((point_b[1] - point_a[1])**2))**0.5
     return distance
 
 #Ex 8
@@ -74,3 +74,4 @@ def rotate_tuple(tupli , k):
   
 
 
+print(get_distance((0,0),(3,4)))
