@@ -69,4 +69,4 @@ def symmetric_different_list(arr1 :list , arr2:list):
             new_list.append(num)
     return new_list
 print(symmetric_different_list([1, 2, 3, 4], [3, 4, 5, 6]))
-
+c
