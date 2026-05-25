@@ -1,0 +1,4 @@
+1|DONE|To learn Python files
+2|DONE|To write
+3|PENDING|To finish the project
+4|DONE|i need to upload the project

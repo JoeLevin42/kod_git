@@ -1,0 +1,4 @@
+Class Averege 78.6
+Avi , 97.7
+(Sara , 50.0)
+4/5
