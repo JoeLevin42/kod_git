@@ -44,7 +44,7 @@ def add_task(filename, description):
 
         line_str = f"{len(filtered_list)+1}|PENDING|{description}"
         with open(filename, "a",encoding="utf-8") as file:
-            file.write(f"\n{line_str}\n")
+            file.write(f"{line_str}\n")
 
     except FileNotFoundError:
         print("Sorry the file not found")
