@@ -1,9 +1,2 @@
-1|DONE|To learn Python files
-2|DONE|To write
-3|PENDING|To finish the project
-4|DONE|i need to upload the project
-5|PENDING||||||||
-6|PENDING|gfwrf
-7|PENDING|dfgrerw
-8|PENDING|dfwerf
-9|PENDING|dfrf
+1|PENDING|To learn python
+2|DONE|To DO THINGS

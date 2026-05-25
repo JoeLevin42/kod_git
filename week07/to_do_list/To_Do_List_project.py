@@ -75,6 +75,20 @@ def list_tasks(filename):
     for task in mission_dict:
         print(f"{"[v]" if task["status"] == "DONE" else "[]"}|{task["id"]}|{task["desc"]}")
 
+def delete_mission(filename, task_id):
+
+    tasks = load_tasks(filename)
+    for task in tasks:
+        if task["id"] == str(task_id):
+            tasks.remove(task)
+            break
+    try:
+        with open(filename,"w",encoding="utf-8") as f:
+            for task in tasks:
+                f.write(f"{task["id"]}|{task["status"]}|{task["desc"]}\n")
+
+    except FileNotFoundError:
+        print("Oops something went wrong")
 
 def main():
 
@@ -84,7 +98,8 @@ def main():
         print("1. Show missions")
         print("2. Add mission")
         print("3. Complete mission")
-        print("4. Exit")
+        print("4. Delete mission by ID")
+        print("5. Exit")
         choice = input("Enter your choice")
 
         if choice == '1':
@@ -97,6 +112,9 @@ def main():
             task_id = int(input('Task number: '))
             complete_task(FILENAME, task_id)
         elif choice == '4':
+            get_id_task = input("Enter id task")
+            delete_mission(FILENAME, get_id_task)
+        elif choice == '5':
             print('Goodbye!')
             break
         else:
