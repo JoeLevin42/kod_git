@@ -3,7 +3,17 @@ To Do List - mission manager project
 """
 
 def load_tasks(filename)-> list[dict]:
-    
+    """Loading the tasks 
+
+    This function is taking the txt file and converting it to
+    list of dicts 
+
+    Args:
+        filename = the file path 
+
+    Returns:
+        mission_dict_list = list of dict, every dict is line in the file
+    """
     mission_dicts_list = []
     try:
         with open("tasks.txt","r",encoding="utf-8") as file:
@@ -21,7 +31,17 @@ def load_tasks(filename)-> list[dict]:
 
 
 def save_tasks(filename, tasks)-> None:
-    
+    """Saves the taks into file
+
+    This function is taking the tasks list of dict (from the previous func)
+    and saves it inot file
+
+    Args:
+        filename = filename path
+        tasks = the list of dict
+    Returns:
+        None = just saving the content into file
+    """
     try:
         with open(filename , "w",encoding="utf-8") as file:
              for index , dicti in enumerate(tasks):
@@ -36,7 +56,19 @@ def save_tasks(filename, tasks)-> None:
         print("Sorry something went wrong")
 
 def add_task(filename, description):
-    
+    """Adding task
+
+    This function is adding miison to the file taking description and
+    automatically know from the current file the next id number and auto 
+    writes the status as PENDING 
+
+    Args:
+        filename = filename path
+        description = the description the the task
+
+    Returns:
+        None = Just updated the file
+    """
     try:
         with open(filename,"r",encoding="utf-8") as r:
             content = r.readlines()
@@ -50,7 +82,18 @@ def add_task(filename, description):
         print("Sorry the file not found")
 
 def complete_task(filename , task_id):
+    """Complete task as DONE
+
+    This function searching the task by task_id and then updating the status
+    to DONE
+
+    Args:
+        filename = file path
+        task_id = the number of the task
     
+    Returns:
+        None = just updating the file
+    """
     try:
         with open(filename, "r", encoding="utf-8") as r:
             content = r.readlines()
@@ -70,13 +113,32 @@ def complete_task(filename , task_id):
         
 
 def list_tasks(filename):
+    """Showing the list
+
+    This funciton prints to the console the list of the tasks
+    in format that if done is [V] else []
+
+    Args:
+        filename = file path
     
+    Returns:
+        None = just printing
+    """   
     mission_dict = load_tasks(filename)
     for task in mission_dict:
         print(f"{"[v]" if task["status"] == "DONE" else "[]"}|{task["id"]}|{task["desc"]}")
 
 def delete_mission(filename, task_id):
+    """Delete mission
 
+    This function is deleting mission from the the file
+
+    Args:
+        filename = file path
+
+    Returns:
+        None = just updating the file
+    """
     tasks = load_tasks(filename)
     for task in tasks:
         if task["id"] == str(task_id):
@@ -119,6 +181,7 @@ def main():
             break
         else:
             print('Invalid choice')
+
 
 if __name__ == '__main__':
     main()
