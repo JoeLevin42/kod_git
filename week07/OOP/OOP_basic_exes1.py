@@ -176,7 +176,7 @@ class PlayList:
         self.songs.remove(song)
 
     def __str__(self):
-        return f"songs : {self.songs}"
+        return f"songs : {" ".join(self.songs)}"
         
 my_play = PlayList()
 my_play.add("kalalka")
