@@ -35,6 +35,5 @@ def one_student(student_id:str):
     
     return grades.get(student_id, "Error")
 
-
 if __name__ == "__main__":
-    uvicorn.run(app,reload= True)
+    uvicorn.run(app)
