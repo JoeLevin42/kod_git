@@ -1,0 +1,24 @@
+Plan for project:
+first: inputs:
+- input int trackI = ID (try convert to int)
+- input int speed = speed (try convert to int)
+- input int heading = heading (try conver to int if not between 0 - 359)
+- input - status = status (Enum("cruising", "turning", "stopped", or "accelerating")
+
+
+handle bad inpout for speed:
+
+
+
+declare (str tagSpeed;)
+clals:
+clac the speed { 
+switch (speed){
+	case (speed< 100):
+	tagSpeed = "Slow";
+	case (speed >= 100 or speed < 300)
+	tagSpeed = "Medium";
+	case (speed >300):
+	tagSpeed = "fast"
+
+}

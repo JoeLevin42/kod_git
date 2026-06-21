@@ -43,7 +43,7 @@ def create_table_schema():
     cnx.close()
 
 def get_connection():
-    cnx = mysql.connector.conenct(
+    cnx = mysql.connector.connect(
         host= "localhost",
         database = "db",
         user = "root",
@@ -83,8 +83,8 @@ def update_something(soldier_id:int,data:dict):
     set_parts = [f"{key}=%s" for key in data.keys()]
     set_clause = ",".join(set_parts)
 
-    sql = f"UPDATE soldiers SET {set_clause} WHEERE id = %s"
-    values = list(data.keys()) + [soldier_id]
+    sql = f"UPDATE soldiers SET {set_clause} WHERE id = %s"
+    values = list(data.values()) + [soldier_id]
 
     my_cursor.execute(sql,values)
     conn.commit()
@@ -94,3 +94,45 @@ def update_something(soldier_id:int,data:dict):
     my_cursor.close()
     conn.close()
     return changed
+
+def delete(soldier_id: int)->bool:
+    conn = get_connection()
+    my_cursor = conn.cursor()
+
+    my_cursor.execute("DELETE FROM soldiers WHERE id = %s",(soldier_id,))
+    conn.commit()
+
+    deleted = my_cursor.rowcount > 0
+
+    my_cursor.close()
+    conn.close()
+
+    return deleted
+
+def get_all()->list:
+    conn = get_connection()
+    my_cursor = conn.cursor(dictionary=True)
+
+    my_cursor.execute("SELECT * FROM soldiers")
+    rows = my_cursor.fetchall()
+
+    my_cursor.close()
+    conn.close()
+    return rows
+
+def get_by_id(soldier_id:int):
+
+    conn = get_connection()
+    my_cursor = conn.cursor(dictionary =True)
+
+    my_cursor.execute("SELECT * FROM soldiers WHERE id = %s",(soldier_id,))
+    row = my_cursor.fetchone()
+
+    my_cursor.close()
+    conn.close()
+
+    return row
+
+
+
+
