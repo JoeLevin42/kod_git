@@ -1,41 +1,72 @@
-﻿namespace day1simul {
+using System;
+
+namespace Navysimulation
+{
     class Navy
     {
         static void Main()
         {
-            //-input int trackI = ID(try convert to int)
-            //-input int speed = speed(try convert to int)
-            //-input int heading = heading(try conver to int if not between 0 - 359)
-            //-input - status = status(Enum("cruising", "turning", "stopped", or "accelerating")
+            string[] statuses = { "cruising", "turning", "stopped","accelerating"};
+            int trackId = 0;
+            int speed = 0;
+            string speedCl = "";
+            int heading = 0;
+            string status = "";
 
-            string[] statuses = { "cruising", "turning", "stopped", "accelerating" };
-            int trackId;
-            int speed;
-            int heading;
-            string status;
 
-            string input_trackId = Console.ReadLine();
-            string input_speed = Console.ReadLine();
-            string input_heading = Console.ReadLine();
-            string input_status = Console.ReadLine();
-
-             if   (int.TryParse(input_trackId, out trackId) &&
-                int.TryParse(input_speed, out speed) && 
-                int.TryParse(input_heading, out heading)&&
-                 heading >= 0 && heading <=359)
+            bool flag = false;
+            while (!flag)
             {
-                Console.WriteLine("Everthing parsed into int");
+                Console.WriteLine("Please enter trackID");
+                string inputTrackId = Console.ReadLine();
+                if (int.TryParse(inputTrackId, out trackId))
+                {
+                    Console.WriteLine("The convert successed");
+                    flag = true;
+                }
+                else
+                {
+                    Console.WriteLine("Try again the input is invalid");
+                }
+            }
+
+            flag = false;
+            while (!flag)
+            {
+                Console.WriteLine("pleae enter speed");
+                string inputSpeed = Console.ReadLine();
+                if (int.TryParse(inputSpeed , out speed))
+                {
+                    if (speed <= 100) {
+                        speedCl = "SLOW";
+                    }
+                    else if (speed > 100 && speed <= 300)
+                    {
+                        speedCl = "MEDIUM";
+                    }
+                    else if (speed > 300)
+                    {
+                        speedCl = "FAST";
+                    }
+                    else if (speed <0){
+                        Console.WriteLine("You cant use negative numbers");
+                        continue;
+                    }
+                    flag = true;
+                    Console.WriteLine("The convert and classification successed!");
+                        }
+                else
+                {
+                    Console.WriteLine("Something went wrong try again");
+                }
                     
-            }
-            
+                    }
 
-            
-            else
-            {
-                Console.WriteLine("Something went wrong");
+                        
+
+                }
             }
-           
+
 
         }
-    }
-}
+    

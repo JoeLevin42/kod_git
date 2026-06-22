@@ -1,0 +1,62 @@
+Plan for the project:
+description:
+We need to crerate small program to handle tracks
+by three attributes , 
+1. id -int
+2. speed - int
+3. heading - int
+
+Plan:
+because we dont have dicts like pyhton we have to created
+realated lists in c# and be aacessible by the index
+for example for every attribute the index will be const
+--
+id_list = [] 
+speed_list = []
+heading_list = []
+---
+when adding something we will take from the user this theree
+attributes with validations , and add to every list;
+check that all the attributes is good before adding ant
+attribute to the list ,
+- get something - we will search only the id
+in the id list and we want the index , we will use the index
+for reaching the track in any list , for update remove or 
+somthing else can be reachable with the index
+---
+
+
+FLOW:
+
+initialize the variables of the list
+id_list = []
+speed_list - []
+heading_list = []
+
+----
+function that radsead and conver to int"
+int id;
+int speed;
+int heading;
+
+flag = false;
+while (!flag);
+tryreadline = with parse to int for every attribue
+return array of this three attributes
+
+the funciton gets the array and unpack it:
+-function ADDTRACK(int id , int speed , int heading)
+	adding every attribute into the their right list
+
+-function get index by id (int id):
+	check whaht the index of the id and returns
+-fucniton remove(id: int)
+	get the index by the id with the funciton 
+	and then removing from every list this index
+- funciton get all tracks():
+	go with for in range and every itration get the index of
+	all the three lists in one line
+- funciton get by filter(speed tresh hold or heading sector)
+	gettin the speed tresh hold and return new list
+	of the tracks that only bigger than the treashold
+	

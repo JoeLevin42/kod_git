@@ -1,24 +1,49 @@
-Plan for project:
-first: inputs:
-- input int trackI = ID (try convert to int)
-- input int speed = speed (try convert to int)
-- input int heading = heading (try conver to int if not between 0 - 359)
-- input - status = status (Enum("cruising", "turning", "stopped", or "accelerating")
+user input :
+1. trackId = user_input str / str
+2. speed = number  / str
+3. heading = number 0 -359 /str
+4. status - (text (str) "cruising", "turning", "stopped","accelerating") /str
 
+convering = 
+1. int(trackId) , if true - else error
+2. int(speed) , if true - else error
+3. int(heading) , if ture else error
+4. no castin , check if status in arr
 
-handle bad inpout for speed:
+Plan for converting , 
+delcare variables for the after casting: 
+int trackId = int(input_trackId) / 0
+int speed = intinput_speed) / 0
+str speedCl = the classifation of speed / ""
+int heading = int(input_heading)/ 0
+str status = one of the allowed status  / 0
 
+Flow:
+try to pharse every input until its will work , if not go back if yes continue
+and assign the var to the right value , when its need casting or checking of the 
+words , 
+=====
+the speed classifation :
+if speed < 100 = "slow"
+elif speed > 100 && speed <= 300 = "MEDIUM"
+elif speed > 300 = "FAST"
+THE STORE VAR = speedcl 
+====
+checl heading valid:
+heading have to between 0 - 359
+if heading >= 0 && heading <= 359: else error
 
-
-declare (str tagSpeed;)
-clals:
-clac the speed { 
-switch (speed){
-	case (speed< 100):
-	tagSpeed = "Slow";
-	case (speed >= 100 or speed < 300)
-	tagSpeed = "Medium";
-	case (speed >300):
-	tagSpeed = "fast"
-
-}
+===
+after 
+jsut claculations:
+(int heading) / 30 = float e.g (90/30 = 3.0)
+we need to convert the type from into double 
+====
+logic 1 - 5 go in while on every pharse and try take user input
+convert it to the right type after assigning the rational types
+then check if the values itself need to be something like bigger 
+or smaller than something and then to contiune
+after all the inputs got saved in their rational vars ,
+we will start the claculation
+=== 
+end ; converts type claculation and printing
