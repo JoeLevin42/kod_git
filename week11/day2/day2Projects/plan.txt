@@ -42,7 +42,7 @@ int heading;
 flag = false;
 while (!flag);
 tryreadline = with parse to int for every attribue
-return array of this three attributes
+return array of this three attributesV
 
 the funciton gets the array and unpack it:
 -function ADDTRACK(int id , int speed , int heading)
@@ -52,7 +52,7 @@ the funciton gets the array and unpack it:
 	check whaht the index of the id and returns
 -fucniton remove(id: int)
 	get the index by the id with the funciton 
-	and then removing from every list this index
+	and then removing from every list this index v 
 - funciton get all tracks():
 	go with for in range and every itration get the index of
 	all the three lists in one line
