@@ -112,6 +112,14 @@ namespace TrackSimul
         }
      
         
+        static int ParseFunc(string number)
+        {
+            int numericNumber;
+            bool isSuccess = int.TryParse(number, out numericNumber);
+            if (isSuccess) { return numericNumber; }
+            else { return -1; } 
+
+        }
       
         static void Main()
         {
@@ -119,8 +127,35 @@ namespace TrackSimul
             List<int> speed = new List<int>();
             List<int> heading = new List<int>();
 
+            Console.WriteLine("""
+                ===Hello welcome please choose you option===
+                Press 1. for get all the tracks:
+                Press 2. for get filtered tracks:
+                Press 3. for add track:
+                Press 4. for Remove track by id:
+                Press 5. to get summarize of all the track:
+                """);
+
+            string userInput = Console.ReadLine();
+            switch (userInput)
+            {
+                case "1": 
+                    GetAllTracks(id,speed,heading); //if the list empty its will raise an error
+                    break;
+
+                case "2":
+                    Console.WriteLine("Please enter your tresh hold!");
+                    string userTreshold = Console.ReadLine();
+                    int tresHold= ParseFunc(userTreshold);
+
+                    string filteredStr = GetFilteredTracks(tresHold,id,speed,heading); //need to put treshold
+                    PrintLines()
 
 
+            }
+
+
+            
            
 
         }

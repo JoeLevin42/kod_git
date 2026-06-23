@@ -1,0 +1,23 @@
+Entities:
+3 diffrent but realated lists:
+source id = [] - int
+classification = [] - enum
+strenght megahertz [] - int
+
+======
+while (!false) until exit()
+main menu flow theorital:
+add-new = need to create  three different lists add id , classification , strenght megahertz
+-- func that reads from user - 3 different funcs V
+-- func that parse str to int - V 
+- func that adds to the lists - V
+- func that vlidate the classification part of the enum -  V this is automatically
+-func that checking that the strenght megahers not null - 
+- try to do the three check validation throught one func
+
+update :
+- func that can update the strenght only! 
+
+READ:
+- get all the realated lists in one line,
+if the strenght is null - 'unknown'
