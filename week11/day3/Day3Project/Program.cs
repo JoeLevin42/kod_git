@@ -69,7 +69,7 @@ namespace Intel
                 List<string> classifation = new List<string>();
                 List<int> strenght = new List<int>();
 
-                GetClassification();
+                
 
             }
 
