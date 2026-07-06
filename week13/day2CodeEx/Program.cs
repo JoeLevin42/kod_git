@@ -1,5 +1,5 @@
-using A;
 using System;
+using System.Collections.Generic;
 
 namespace A
 {
@@ -12,8 +12,8 @@ namespace A
 
         protected SatelliteImage(int id, double cloudCover, string sensor)
         {
-            if (!(cloudCover >= 0 && cloudCover <= 100))
-                throw new ArgumentException("CloudCover must be 0–100");
+            if (cloudCover < 0 || cloudCover > 100)
+                throw new ArgumentException($"Corrupt record {id}: invalid cloud cover");
 
             Id = id;
             CloudCover = cloudCover;
@@ -24,10 +24,23 @@ namespace A
 
         public virtual string Format()
         {
-            return $"Image {Id}:{CloudCover:0}% cloud [{Sensor}]";
+            return $"Image {Id} | {CloudCover:0}% | {Sensor}";
         }
     }
-    class SARImage : SatelliteImage
+
+   
+    interface IRetaskable
+    {
+        void Retask();
+    }
+
+    interface IThermalCalibratable
+    {
+        void CalibrateThermal();
+    }
+
+
+    class SARImage : SatelliteImage, IRetaskable
     {
         public SARImage(int id, double cloudCover)
             : base(id, cloudCover, "SAR") { }
@@ -35,6 +48,11 @@ namespace A
         public override int Score()
         {
             return 100 - (int)CloudCover;
+        }
+
+        public void Retask()
+        {
+            Console.WriteLine($"SAR {Id} retasked.");
         }
     }
 
@@ -47,72 +65,108 @@ namespace A
         {
             return 60 - (int)CloudCover;
         }
+    }
 
-        class IRImage : SatelliteImage
+    class IRImage : SatelliteImage, IThermalCalibratable
+    {
+        public IRImage(int id, double cloudCover)
+            : base(id, cloudCover, "IR") { }
+
+        public override int Score()
         {
-            public IRImage(int id, double cloudCover)
-                : base(id, cloudCover, "IR") { }
-
-            public override int Score()
-            {
-                return 40 - (int)CloudCover;
-            }
-
-
-
-        }
-        class Repository<T> where T : SatelliteImage
-        {
-            private List<T> _images = new List<T>();
-
-
-            public void Add(T image)
-            {
-                _images.Add(image);
-            }
-
-            public List<T> GetAll()
-            {
-                return _images;
-            }
-
+            return 40 - (int)CloudCover;
         }
 
-        class Prgram
+        public void CalibrateThermal()
         {
-            static void Main()
-            {
-                Repository<SatelliteImage> repo = new Repository<SatelliteImage>();
+            Console.WriteLine($"IR {Id} thermal calibrated.");
+        }
+    }
 
+    class QuickLookImage : SatelliteImage
+    {
+        public QuickLookImage(int id, double cloudCover)
+            : base(id, cloudCover, "QUICK") { }
+
+        public override int Score()
+        {
+            // IMPORTANT FIX FOR LSP:
+            // no exception, must be safe for loop
+            return 5;
+        }
+    }
+
+    class Repository<T> where T : SatelliteImage
+    {
+        private List<T> _images = new();
+
+        public void Add(T image)
+        {
+            _images.Add(image);
+        }
+
+        public List<T> GetAll()
+        {
+            return _images;
+        }
+    }
+
+   
+    class Program
+    {
+        static void Main()
+        {
+            Repository<SatelliteImage> repo = new();
+
+            int dropped = 0;
+
+            int[] ids = { 1, 2, 3, 4 };
+            double[] clouds = { 20, 50, 10, 150 }; // last one corrupt
+
+            for (int i = 0; i < ids.Length; i++)
+            {
                 try
                 {
-                    repo.Add(new SARImage(1, 20));
-                    repo.Add(new EOImage(2, 50));
-                    repo.Add(new IRImage(3, 10));
+                    SatelliteImage img;
 
-                    //Exception!!
-                    repo.Add(new SARImage(4, 150));
+                    if (i == 0)
+                        img = new SARImage(ids[i], clouds[i]);
+                    else if (i == 1)
+                        img = new EOImage(ids[i], clouds[i]);
+                    else if (i == 2)
+                        img = new IRImage(ids[i], clouds[i]);
+                    else
+                        img = new QuickLookImage(ids[i], clouds[i]);
+
+                    repo.Add(img);
                 }
                 catch (ArgumentException ex)
                 {
                     Console.WriteLine(ex.Message);
+                    Console.WriteLine($"Dropped corrupt record {ids[i]}");
+                    dropped++;
                 }
-
-                int total = 0;
-
-                foreach (SatelliteImage image in repo.GetAll())
+                finally
                 {
-                    Console.WriteLine(image.Format());
-                    Console.WriteLine($"Score:{image.Score()}");
-                    Console.WriteLine();
-
-                    total += image.Score();
+                    Console.WriteLine($"Finished processing record {ids[i]}");
                 }
-
-                Console.WriteLine($"Total Score: {total}");
             }
+
+            Console.WriteLine("\n--- SCORING ---");
+
+            int total = 0;
+
+            foreach (SatelliteImage img in repo.GetAll())
+            {
+                Console.WriteLine(img.Format());
+                int score = img.Score();
+                Console.WriteLine($"Score: {score}\n");
+
+                total += score;
+            }
+            Console.WriteLine($"Stored: {repo.GetAll().Count}");
+            Console.WriteLine($"Dropped: {dropped}");
+            Console.WriteLine($"Total score: {total}");
         }
     }
 }
-
-        
