@@ -90,8 +90,7 @@ namespace A
 
         public override int Score()
         {
-            // IMPORTANT FIX FOR LSP:
-            // no exception, must be safe for loop
+
             return 5;
         }
     }

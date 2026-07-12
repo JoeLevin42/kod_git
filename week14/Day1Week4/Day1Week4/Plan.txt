@@ -1,0 +1,10 @@
+Plan for...:
+
+1.  taking the path of the json file
+2.  check if the file path exists , if exists;
+3.  every line is 3 parts where the delimeter is whitespace [" "] . v
+4.	for every part need to check the type.
+5.	first need to create the, database (list of lists) -- when every list contains the three parts of the line
+6.	for every error create costum exception , 1. valueError - negative number , valueError - not parsing (string type)
+7.  using try : parse , catch : the exceptions , finally : print the summary how may reports were accepted and how many rejected.
+8.	Take all the accepted reports a json file , the reload the mfrom that JSON file into object and print the 
