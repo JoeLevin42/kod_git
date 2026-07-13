@@ -93,18 +93,32 @@ namespace A
 
     public void ReadFromJson(string path)
         {
-
+            try
+            {
+                string json = File.ReadAllText(path);
+                List<Report> reports = JsonSerializer.Deserialize<List<Report>>(json);
+            }
+            catch (JsonException ex)
+            {
+                Console.WriteLine("The json file is corrupted");
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("Could not read file");
+            }
+        
         }
+        
 
 
         class Program
         {
-
             public static void Main(string[] args)
             {
                 Read reader = new Read();
                 reader.RawData("w4d1_field_reports_input.txt");
             }
+
         }
     }
 }
