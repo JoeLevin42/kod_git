@@ -1,0 +1,6 @@
+@SimpleGetProject_HostAddress = http://localhost:5177
+
+GET {{SimpleGetProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

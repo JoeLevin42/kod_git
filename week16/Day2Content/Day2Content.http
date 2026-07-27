@@ -1,0 +1,6 @@
+@Day2Content_HostAddress = http://localhost:5032
+
+GET {{Day2Content_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
