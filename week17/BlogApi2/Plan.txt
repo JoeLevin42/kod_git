@@ -1,0 +1,15 @@
+Plan for creating this blog api project :
+
+Part 1 - configuration and settings:
+1. inatall all the packages (ef core , ef core.dedign , pomelo mysql) V
+2. to configure the conneciton string in the json settings 
+3. to add the connection string in the program.cs 
+---
+Part 2 -
+1. Creating the models and idenify the realationship between them ,
+2. to cofigurate the realationship in the onmodelcreate  and create basic DbContext
+3. to creaste repo that holds this context and giving simple crud functunalitty
+---
+Part 3 
+1. create the controller and give the him the repo to work with
+2. in the controller all the methods for routes that needed

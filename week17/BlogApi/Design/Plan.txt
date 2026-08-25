@@ -1,0 +1,14 @@
+Plan for build this project blog api:
+---
+Part 1 : statrting packages , intial models , simple code :
+1. V install all packages of the ef core (core ,design , pomelo)
+2. V create the simple models according and set the nevigate property and the FK;
+3. V - create the dbContext - with the models 
+5. V to add the connection string to the json setting and to the program.cs
+4. create the repo talking to the dbContext
+6. do the imagration command.
+
+Part 2:
+1. create Service - that will speak with the repo ? (optional)
+2. Make the actual routes in the controller;
+3. IMPROVE , LEARN (And for all during the project)

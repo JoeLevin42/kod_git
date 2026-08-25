@@ -115,6 +115,7 @@ public class FlightLogsController : ControllerBase
         return NoContent();
     }
 
+
     [HttpGet("search")]
     public ActionResult<IEnumerable<FlightLog>> SearchByAirline([FromQuery] string airline)
     {

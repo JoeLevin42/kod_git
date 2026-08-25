@@ -1,0 +1,23 @@
+--Plan for consumer service app
+Part 1: -- basic-config
+1. create appsettings.json - V
+2. create config obj that reads from appsettings (Program.cs) -v
+3.create conn string in appsettings to sql Db , and reach the connstring in (program.cs) ?
+
+Part 2 :
+1. Create service for dbContext (and set realatinships) - V
+2. Create service for proccess the data -V
+
+Part 3 :
+1. For the services create The DI container -V
+2. Register services in the container - V
+3. To activate the DI container and build obj of him -V
+4. The scope the needed services (dbContext) creation - V 
+
+Part 4 : - Kakfa 
+1. Create config obj for kafka -V
+2. build the kafka obj -V
+
+Part 5 : - while true;
+1. create the loops-V
+2. inside loops , consume , validate , send to proccessor , commit() -V

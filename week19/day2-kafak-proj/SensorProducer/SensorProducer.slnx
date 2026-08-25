@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../DashboardApi/DashboardApi.csproj" />
+  <Project Path="../EventConsumerWorker/EventConsumerWorker.csproj" />
+  <Project Path="SensorProducer.csproj" />
+</Solution>

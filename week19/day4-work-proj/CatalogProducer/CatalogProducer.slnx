@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../CatalogConsumer/CatalogConsumer.csproj" />
+  <Project Path="../DashbordApi/DashbordApi.csproj" />
+  <Project Path="CatalogProducer.csproj" />
+</Solution>

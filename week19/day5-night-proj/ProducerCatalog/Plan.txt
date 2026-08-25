@@ -1,0 +1,17 @@
+--planing for the proj
+1. create the basic loader json service -v
+2.create the basic producer obj with the send generic method and method for send end msg - V
+3. create the appsettings v
+=======
+Part 2:
+-Program.cs
+
+1.create configuration obj (read the appsettigns json) -v
+2. create all the Path for json -V
+2.1 crate var for topics and bootsrapservers! -v
+3. create the jsonLoader obj
+4. create the producer obj
+5. load the data for list
+6. do the loop (foreach) on the lists and send to to kafka
+7. end msg after loop
+8.dispose (flush)

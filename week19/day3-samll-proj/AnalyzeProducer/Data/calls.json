@@ -1,0 +1,2218 @@
+[
+  {
+    "call_id": 1001,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1002,
+    "analyst_id": 3,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1003,
+    "analyst_id": 2,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1004,
+    "analyst_id": 4,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1005,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1006,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1007,
+    "analyst_id": 12,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1008,
+    "analyst_id": 6,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1009,
+    "analyst_id": 6,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1010,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1011,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1012,
+    "analyst_id": 10,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1013,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1014,
+    "analyst_id": 7,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1015,
+    "analyst_id": 6,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1016,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1017,
+    "analyst_id": 12,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1018,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1019,
+    "analyst_id": 1,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1020,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1021,
+    "analyst_id": 12,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1022,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1023,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1024,
+    "analyst_id": 10,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1025,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1026,
+    "analyst_id": 3,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1027,
+    "analyst_id": 2,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1028,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1029,
+    "analyst_id": 12,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1030,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1031,
+    "analyst_id": 1,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1032,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1033,
+    "analyst_id": 11,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1034,
+    "analyst_id": 3,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1035,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1036,
+    "analyst_id": 2,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1037,
+    "analyst_id": 5,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1038,
+    "analyst_id": 2,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1039,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1040,
+    "analyst_id": 9,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1041,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1042,
+    "analyst_id": 12,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1043,
+    "analyst_id": 8,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1044,
+    "analyst_id": 2,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1045,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1046,
+    "analyst_id": 2,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1047,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1048,
+    "analyst_id": 12,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1049,
+    "analyst_id": 8,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1050,
+    "analyst_id": 7,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1051,
+    "analyst_id": 1,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1052,
+    "analyst_id": 7,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1053,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1054,
+    "analyst_id": 5,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1055,
+    "analyst_id": 9,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1056,
+    "analyst_id": 1,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1057,
+    "analyst_id": 3,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1058,
+    "analyst_id": 1,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1059,
+    "analyst_id": 8,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1060,
+    "analyst_id": 9,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1061,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1062,
+    "analyst_id": 12,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1063,
+    "analyst_id": 9,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1064,
+    "analyst_id": 3,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1065,
+    "analyst_id": 7,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1066,
+    "analyst_id": 10,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1067,
+    "analyst_id": 10,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1068,
+    "analyst_id": 12,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1069,
+    "analyst_id": 11,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1070,
+    "analyst_id": 2,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1071,
+    "analyst_id": 2,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1072,
+    "analyst_id": 6,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1073,
+    "analyst_id": 3,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1074,
+    "analyst_id": 11,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1075,
+    "analyst_id": 11,
+    "agent_id": 51,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1076,
+    "analyst_id": 2,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1077,
+    "analyst_id": 4,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1078,
+    "analyst_id": 5,
+    "agent_id": 51,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1079,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1080,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1081,
+    "analyst_id": 3,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1082,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1083,
+    "analyst_id": 3,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1084,
+    "analyst_id": 3,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1085,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1086,
+    "analyst_id": 2,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1087,
+    "analyst_id": 10,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1088,
+    "analyst_id": 3,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1089,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1090,
+    "analyst_id": 7,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1091,
+    "analyst_id": 5,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1092,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1093,
+    "analyst_id": 8,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1094,
+    "analyst_id": 4,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1095,
+    "analyst_id": 2,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1096,
+    "analyst_id": 7,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1097,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1098,
+    "analyst_id": 5,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1099,
+    "analyst_id": 6,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1100,
+    "analyst_id": 10,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1101,
+    "analyst_id": 9,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1102,
+    "analyst_id": 12,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1103,
+    "analyst_id": 11,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1104,
+    "analyst_id": 2,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1105,
+    "analyst_id": 7,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1106,
+    "analyst_id": 4,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1107,
+    "analyst_id": 3,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1108,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1109,
+    "analyst_id": 10,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1110,
+    "analyst_id": 4,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1111,
+    "analyst_id": 12,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1112,
+    "analyst_id": 11,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1113,
+    "analyst_id": 4,
+    "agent_id": 52,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1114,
+    "analyst_id": 1,
+    "agent_id": 52,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1115,
+    "analyst_id": 2,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1116,
+    "analyst_id": 12,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1117,
+    "analyst_id": 11,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1118,
+    "analyst_id": 2,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1119,
+    "analyst_id": 12,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1120,
+    "analyst_id": 2,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1121,
+    "analyst_id": 9,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1122,
+    "analyst_id": 10,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1123,
+    "analyst_id": 9,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1124,
+    "analyst_id": 8,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1125,
+    "analyst_id": 9,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1126,
+    "analyst_id": 12,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1127,
+    "analyst_id": 9,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1128,
+    "analyst_id": 3,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1129,
+    "analyst_id": 9,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1130,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1131,
+    "analyst_id": 10,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1132,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1133,
+    "analyst_id": 12,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1134,
+    "analyst_id": 8,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1135,
+    "analyst_id": 6,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1136,
+    "analyst_id": 8,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1137,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1138,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1139,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1140,
+    "analyst_id": 7,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1141,
+    "analyst_id": 2,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1142,
+    "analyst_id": 6,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1143,
+    "analyst_id": 1,
+    "agent_id": 53,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1144,
+    "analyst_id": 1,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1145,
+    "analyst_id": 2,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1146,
+    "analyst_id": 6,
+    "agent_id": 53,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1147,
+    "analyst_id": 2,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1148,
+    "analyst_id": 10,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1149,
+    "analyst_id": 7,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1150,
+    "analyst_id": 12,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1151,
+    "analyst_id": 5,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1152,
+    "analyst_id": 10,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1153,
+    "analyst_id": 6,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1154,
+    "analyst_id": 7,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1155,
+    "analyst_id": 11,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1156,
+    "analyst_id": 3,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1157,
+    "analyst_id": 9,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1158,
+    "analyst_id": 10,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1159,
+    "analyst_id": 2,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1160,
+    "analyst_id": 10,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1161,
+    "analyst_id": 6,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1162,
+    "analyst_id": 6,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1163,
+    "analyst_id": 9,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1164,
+    "analyst_id": 12,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1165,
+    "analyst_id": 8,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1166,
+    "analyst_id": 2,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1167,
+    "analyst_id": 11,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1168,
+    "analyst_id": 7,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1169,
+    "analyst_id": 8,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1170,
+    "analyst_id": 4,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1171,
+    "analyst_id": 12,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1172,
+    "analyst_id": 12,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1173,
+    "analyst_id": 2,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1174,
+    "analyst_id": 5,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1175,
+    "analyst_id": 1,
+    "agent_id": 54,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1176,
+    "analyst_id": 8,
+    "agent_id": 54,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1177,
+    "analyst_id": 8,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1178,
+    "analyst_id": 8,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1179,
+    "analyst_id": 10,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1180,
+    "analyst_id": 10,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1181,
+    "analyst_id": 9,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1182,
+    "analyst_id": 4,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1183,
+    "analyst_id": 5,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1184,
+    "analyst_id": 10,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1185,
+    "analyst_id": 4,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1186,
+    "analyst_id": 4,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1187,
+    "analyst_id": 8,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1188,
+    "analyst_id": 5,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1189,
+    "analyst_id": 11,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1190,
+    "analyst_id": 10,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1191,
+    "analyst_id": 9,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1192,
+    "analyst_id": 3,
+    "agent_id": 55,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1193,
+    "analyst_id": 12,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1194,
+    "analyst_id": 8,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1195,
+    "analyst_id": 9,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1196,
+    "analyst_id": 7,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1197,
+    "analyst_id": 4,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1198,
+    "analyst_id": 1,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1199,
+    "analyst_id": 1,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1200,
+    "analyst_id": 8,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1201,
+    "analyst_id": 11,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1202,
+    "analyst_id": 7,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1203,
+    "analyst_id": 6,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1204,
+    "analyst_id": 7,
+    "agent_id": 55,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1205,
+    "analyst_id": 6,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1206,
+    "analyst_id": 9,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1207,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1208,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1209,
+    "analyst_id": 9,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1210,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1211,
+    "analyst_id": 4,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1212,
+    "analyst_id": 7,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1213,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1214,
+    "analyst_id": 12,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1215,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1216,
+    "analyst_id": 7,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1217,
+    "analyst_id": 3,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1218,
+    "analyst_id": 7,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1219,
+    "analyst_id": 1,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1220,
+    "analyst_id": 11,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1221,
+    "analyst_id": 6,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1222,
+    "analyst_id": 6,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1223,
+    "analyst_id": 7,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1224,
+    "analyst_id": 12,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1225,
+    "analyst_id": 11,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1226,
+    "analyst_id": 1,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1227,
+    "analyst_id": 2,
+    "agent_id": 56,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1228,
+    "analyst_id": 8,
+    "agent_id": 56,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1229,
+    "analyst_id": 3,
+    "agent_id": 57,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 5,
+    "analyst_id": 2,
+    "agent_id": 50,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1230,
+    "analyst_id": 10,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1231,
+    "analyst_id": 11,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1232,
+    "analyst_id": 12,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1233,
+    "analyst_id": 10,
+    "agent_id": 57,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1234,
+    "analyst_id": 4,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1235,
+    "analyst_id": 11,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1236,
+    "analyst_id": 5,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1237,
+    "analyst_id": 5,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1238,
+    "analyst_id": 7,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1239,
+    "analyst_id": 2,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1240,
+    "analyst_id": 8,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1241,
+    "analyst_id": 5,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1242,
+    "analyst_id": 8,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1243,
+    "analyst_id": 8,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1244,
+    "analyst_id": 7,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1245,
+    "analyst_id": 7,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1246,
+    "analyst_id": 6,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1247,
+    "analyst_id": 11,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1248,
+    "analyst_id": 12,
+    "agent_id": 57,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1249,
+    "analyst_id": 5,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1250,
+    "analyst_id": 4,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1251,
+    "analyst_id": 12,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1252,
+    "analyst_id": 2,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1253,
+    "analyst_id": 8,
+    "agent_id": 58,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1254,
+    "analyst_id": 5,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1255,
+    "analyst_id": 9,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1256,
+    "analyst_id": 5,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1257,
+    "analyst_id": 8,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1258,
+    "analyst_id": 2,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1259,
+    "analyst_id": 4,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1260,
+    "analyst_id": 9,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1261,
+    "analyst_id": 9,
+    "agent_id": 58,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1262,
+    "analyst_id": 5,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1263,
+    "analyst_id": 2,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1264,
+    "analyst_id": 9,
+    "agent_id": 58,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1265,
+    "analyst_id": 11,
+    "agent_id": 59,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1266,
+    "analyst_id": 7,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1267,
+    "analyst_id": 8,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1268,
+    "analyst_id": 7,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1269,
+    "analyst_id": 9,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1270,
+    "analyst_id": 7,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1271,
+    "analyst_id": 5,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1272,
+    "analyst_id": 4,
+    "agent_id": 59,
+    "word_alpha": 0,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1273,
+    "analyst_id": 9,
+    "agent_id": 59,
+    "word_alpha": 0,
+    "word_bravo": 0,
+    "word_charlie": 1
+  },
+  {
+    "call_id": 1274,
+    "analyst_id": 5,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1275,
+    "analyst_id": 8,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 1,
+    "word_charlie": 0
+  },
+  {
+    "call_id": 1276,
+    "analyst_id": 1,
+    "agent_id": 59,
+    "word_alpha": 1,
+    "word_bravo": 0,
+    "word_charlie": 0
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "analyst_id": 1,
+    "name": "A. Barak",
+    "arena": "north",
+    "specialty": "comms"
+  },
+  {
+    "analyst_id": 2,
+    "name": "D. Peled",
+    "arena": "south",
+    "specialty": "reports"
+  },
+  {
+    "analyst_id": 3,
+    "name": "N. Shaham",
+    "arena": "center",
+    "specialty": "logistics"
+  },
+  {
+    "analyst_id": 4,
+    "name": "T. Golan",
+    "arena": "east",
+    "specialty": "cyber"
+  },
+  {
+    "analyst_id": 5,
+    "name": "R. Alon",
+    "arena": "north",
+    "specialty": "comms"
+  },
+  {
+    "analyst_id": 6,
+    "name": "M. Sela",
+    "arena": "south",
+    "specialty": "reports"
+  },
+  {
+    "analyst_id": 7,
+    "name": "Y. Carmel",
+    "arena": "center",
+    "specialty": "logistics"
+  },
+  {
+    "analyst_id": 8,
+    "name": "L. Doron",
+    "arena": "east",
+    "specialty": "cyber"
+  },
+  {
+    "analyst_id": 9,
+    "name": "S. Eitan",
+    "arena": "north",
+    "specialty": "comms"
+  },
+  {
+    "analyst_id": 10,
+    "name": "G. Noy",
+    "arena": "south",
+    "specialty": "reports"
+  },
+  {
+    "analyst_id": 11,
+    "name": "H. Amit",
+    "arena": "center",
+    "specialty": "logistics"
+  },
+  {
+    "analyst_id": 12,
+    "name": "K. Ziv",
+    "arena": "east",
+    "specialty": "cyber"
+  }
+]

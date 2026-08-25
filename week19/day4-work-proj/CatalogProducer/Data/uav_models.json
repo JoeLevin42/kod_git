@@ -1,0 +1,66 @@
+[
+  {
+    "model_id": 1,
+    "model_name": "Ababil-2",
+    "model_class": "small",
+    "max_range_km": 30,
+    "endurance_minutes": 90,
+    "sensor_payload": "day camera"
+  },
+  {
+    "model_id": 2,
+    "model_name": "Qasef-1",
+    "model_class": "small",
+    "max_range_km": 45,
+    "endurance_minutes": 110,
+    "sensor_payload": "none"
+  },
+  {
+    "model_id": 3,
+    "model_name": "Mohajer-4",
+    "model_class": "medium",
+    "max_range_km": 90,
+    "endurance_minutes": 240,
+    "sensor_payload": "day camera"
+  },
+  {
+    "model_id": 4,
+    "model_name": "Shahed-129",
+    "model_class": "medium",
+    "max_range_km": 130,
+    "endurance_minutes": 300,
+    "sensor_payload": "electro-optical"
+  },
+  {
+    "model_id": 5,
+    "model_name": "Mohajer-6",
+    "model_class": "medium",
+    "max_range_km": 175,
+    "endurance_minutes": 360,
+    "sensor_payload": "electro-optical"
+  },
+  {
+    "model_id": 6,
+    "model_name": "Karrar",
+    "model_class": "large",
+    "max_range_km": 210,
+    "endurance_minutes": 420,
+    "sensor_payload": "none"
+  },
+  {
+    "model_id": 7,
+    "model_name": "Shahed-149",
+    "model_class": "large",
+    "max_range_km": 240,
+    "endurance_minutes": 480,
+    "sensor_payload": "radar"
+  },
+  {
+    "model_id": 8,
+    "model_name": "Fotros",
+    "model_class": "large",
+    "max_range_km": 200,
+    "endurance_minutes": 400,
+    "sensor_payload": "radar"
+  }
+]

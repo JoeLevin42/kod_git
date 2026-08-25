@@ -1,0 +1,6 @@
+@SatellitesTelemetryDataApi_HostAddress = http://localhost:5134
+
+GET {{SatellitesTelemetryDataApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

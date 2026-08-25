@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../DashbordApi/DashbordApi.csproj" />
+  <Project Path="../NightConsumer/NightConsumer.csproj" />
+  <Project Path="NightProducer.csproj" />
+</Solution>

@@ -1,0 +1,416 @@
+[
+  {
+    "unit_id": 101,
+    "model_id": 5,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-17",
+    "status": "destroyed",
+    "home_lat": 32.0114,
+    "home_lon": 35.9294
+  },
+  {
+    "unit_id": 102,
+    "model_id": 6,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-17",
+    "status": "active",
+    "home_lat": 31.9386,
+    "home_lon": 35.5278
+  },
+  {
+    "unit_id": 103,
+    "model_id": 8,
+    "operator_name": "Coastal Group",
+    "first_seen_date": "2026-03-01",
+    "status": "destroyed",
+    "home_lat": 31.4988,
+    "home_lon": 35.5646
+  },
+  {
+    "unit_id": 104,
+    "model_id": 4,
+    "operator_name": "Coastal Group",
+    "first_seen_date": "2026-03-09",
+    "status": "active",
+    "home_lat": 32.2474,
+    "home_lon": 34.7421
+  },
+  {
+    "unit_id": 105,
+    "model_id": 6,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-09",
+    "status": "lost",
+    "home_lat": 33.0525,
+    "home_lon": 34.9117
+  },
+  {
+    "unit_id": 106,
+    "model_id": 5,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-16",
+    "status": "active",
+    "home_lat": 32.1771,
+    "home_lon": 34.8478
+  },
+  {
+    "unit_id": 107,
+    "model_id": 3,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-06",
+    "status": "active",
+    "home_lat": 32.6,
+    "home_lon": 35.4458
+  },
+  {
+    "unit_id": 108,
+    "model_id": 1,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-27",
+    "status": "lost",
+    "home_lat": 32.0381,
+    "home_lon": 34.7688
+  },
+  {
+    "unit_id": 109,
+    "model_id": 2,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-05",
+    "status": "active",
+    "home_lat": 32.5571,
+    "home_lon": 34.9416
+  },
+  {
+    "unit_id": 110,
+    "model_id": 7,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-06",
+    "status": "active",
+    "home_lat": 31.3294,
+    "home_lon": 35.1742
+  },
+  {
+    "unit_id": 111,
+    "model_id": 3,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-16",
+    "status": "active",
+    "home_lat": 31.9984,
+    "home_lon": 34.63
+  },
+  {
+    "unit_id": 112,
+    "model_id": 7,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-06",
+    "status": "active",
+    "home_lat": 32.7787,
+    "home_lon": 35.3655
+  },
+  {
+    "unit_id": 113,
+    "model_id": 2,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-03",
+    "status": "active",
+    "home_lat": 31.853,
+    "home_lon": 35.8359
+  },
+  {
+    "unit_id": 114,
+    "model_id": 5,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-23",
+    "status": "active",
+    "home_lat": 33.0262,
+    "home_lon": 36.0743
+  },
+  {
+    "unit_id": 115,
+    "model_id": 2,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-12",
+    "status": "active",
+    "home_lat": 32.2463,
+    "home_lon": 35.9717
+  },
+  {
+    "unit_id": 116,
+    "model_id": 8,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-06",
+    "status": "active",
+    "home_lat": 31.4281,
+    "home_lon": 35.1643
+  },
+  {
+    "unit_id": 117,
+    "model_id": 5,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-07",
+    "status": "destroyed",
+    "home_lat": 32.104,
+    "home_lon": 34.6432
+  },
+  {
+    "unit_id": 118,
+    "model_id": 2,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-06",
+    "status": "destroyed",
+    "home_lat": 31.7992,
+    "home_lon": 35.0597
+  },
+  {
+    "unit_id": 119,
+    "model_id": 4,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-27",
+    "status": "lost",
+    "home_lat": 32.199,
+    "home_lon": 34.9531
+  },
+  {
+    "unit_id": 120,
+    "model_id": 4,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-16",
+    "status": "active",
+    "home_lat": 32.7748,
+    "home_lon": 35.4644
+  },
+  {
+    "unit_id": 121,
+    "model_id": 3,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-03",
+    "status": "active",
+    "home_lat": 32.3005,
+    "home_lon": 35.8024
+  },
+  {
+    "unit_id": 122,
+    "model_id": 4,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-03",
+    "status": "active",
+    "home_lat": 33.0938,
+    "home_lon": 35.2521
+  },
+  {
+    "unit_id": 123,
+    "model_id": 3,
+    "operator_name": "Coastal Group",
+    "first_seen_date": "2026-03-04",
+    "status": "lost",
+    "home_lat": 31.8262,
+    "home_lon": 35.8074
+  },
+  {
+    "unit_id": 124,
+    "model_id": 8,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-19",
+    "status": "active",
+    "home_lat": 32.8901,
+    "home_lon": 35.1206
+  },
+  {
+    "unit_id": 125,
+    "model_id": 1,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-13",
+    "status": "active",
+    "home_lat": 32.214,
+    "home_lon": 35.5978
+  },
+  {
+    "unit_id": 126,
+    "model_id": 2,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-17",
+    "status": "active",
+    "home_lat": 31.9871,
+    "home_lon": 35.2354
+  },
+  {
+    "unit_id": 127,
+    "model_id": 6,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-22",
+    "status": "active",
+    "home_lat": 31.5591,
+    "home_lon": 34.6423
+  },
+  {
+    "unit_id": 128,
+    "model_id": 8,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-10",
+    "status": "active",
+    "home_lat": 32.4163,
+    "home_lon": 35.0239
+  },
+  {
+    "unit_id": 129,
+    "model_id": 3,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-01",
+    "status": "active",
+    "home_lat": 31.7601,
+    "home_lon": 34.821
+  },
+  {
+    "unit_id": 130,
+    "model_id": 4,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-17",
+    "status": "destroyed",
+    "home_lat": 32.4112,
+    "home_lon": 34.6808
+  },
+  {
+    "unit_id": 131,
+    "model_id": 5,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-20",
+    "status": "active",
+    "home_lat": 33.0588,
+    "home_lon": 35.7082
+  },
+  {
+    "unit_id": 132,
+    "model_id": 4,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-09",
+    "status": "lost",
+    "home_lat": 32.8281,
+    "home_lon": 34.7005
+  },
+  {
+    "unit_id": 133,
+    "model_id": 8,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-28",
+    "status": "lost",
+    "home_lat": 31.4949,
+    "home_lon": 35.4856
+  },
+  {
+    "unit_id": 134,
+    "model_id": 4,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-20",
+    "status": "active",
+    "home_lat": 31.9971,
+    "home_lon": 34.6779
+  },
+  {
+    "unit_id": 135,
+    "model_id": 1,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-13",
+    "status": "active",
+    "home_lat": 31.3456,
+    "home_lon": 34.9098
+  },
+  {
+    "unit_id": 136,
+    "model_id": 2,
+    "operator_name": "Northern Cell",
+    "first_seen_date": "2026-03-01",
+    "status": "active",
+    "home_lat": 31.801,
+    "home_lon": 34.7806
+  },
+  {
+    "unit_id": 137,
+    "model_id": 6,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-21",
+    "status": "active",
+    "home_lat": 32.1163,
+    "home_lon": 35.1338
+  },
+  {
+    "unit_id": 138,
+    "model_id": 7,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-17",
+    "status": "active",
+    "home_lat": 31.6235,
+    "home_lon": 35.9359
+  },
+  {
+    "unit_id": 139,
+    "model_id": 1,
+    "operator_name": "Delta Group",
+    "first_seen_date": "2026-03-24",
+    "status": "active",
+    "home_lat": 31.5598,
+    "home_lon": 36.0289
+  },
+  {
+    "unit_id": 140,
+    "model_id": 4,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-06",
+    "status": "destroyed",
+    "home_lat": 32.0241,
+    "home_lon": 35.1531
+  },
+  {
+    "unit_id": 141,
+    "model_id": 7,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-12",
+    "status": "lost",
+    "home_lat": 32.4273,
+    "home_lon": 36.0209
+  },
+  {
+    "unit_id": 142,
+    "model_id": 2,
+    "operator_name": "Highland Group",
+    "first_seen_date": "2026-03-24",
+    "status": "active",
+    "home_lat": 31.4366,
+    "home_lon": 34.9642
+  },
+  {
+    "unit_id": 143,
+    "model_id": 6,
+    "operator_name": "Coastal Group",
+    "first_seen_date": "2026-03-04",
+    "status": "active",
+    "home_lat": 33.0562,
+    "home_lon": 34.7129
+  },
+  {
+    "unit_id": 144,
+    "model_id": 5,
+    "operator_name": "Eastern Brigade",
+    "first_seen_date": "2026-03-23",
+    "status": "active",
+    "home_lat": 31.9081,
+    "home_lon": 34.7608
+  },
+  {
+    "unit_id": 145,
+    "model_id": 3,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-01",
+    "status": "active",
+    "home_lat": 31.5907,
+    "home_lon": 36.0035
+  },
+  {
+    "unit_id": 146,
+    "model_id": 1,
+    "operator_name": "Southern Cell",
+    "first_seen_date": "2026-03-02",
+    "status": "active",
+    "home_lat": 31.7527,
+    "home_lon": 35.1246
+  }
+]
